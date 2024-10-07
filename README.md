@@ -1,9 +1,10 @@
-# Speaking Clock
+## Overview
+The Speaking Clock application is a Spring Boot-based REST API that converts a given time in 24-hour format into English words. It returns "It's Midnight" for 00:00 and "It's Midday" for 12:00. For other times, it provides the hour and minute in words (e.g., "It's eight thirty-four").
 
-The Speaking Clock project is a simple application that converts the current time into words. It allows users to input the time in a 24-hour clock format and receive the corresponding time in words.
+## Features
+Convert time from 24-hour format to English words. Handle special cases for midnight and midday. RESTful API with Swagger documentation for easy testing.
 
 ## Technologies Used
-
 - Java 11
 - Spring Boot
 - Gradle Wrapper
@@ -21,7 +22,7 @@ Follow the steps below to get started with the Speaking Clock project:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/bikash-hutait/SPEAKING-CLOCK.git
+   git clone https://github.com/AnuAradya07/Speaking-Clock.git
    ```
 
 2. Navigate to the project directory:
@@ -57,21 +58,11 @@ The Speaking Clock project provides the following API endpoints:
 
 ## Documentation
 
-The project uses Swagger for API documentation. You can access the Swagger documentation by opening the following URL in your web browser: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+swagger-ui: [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
 
 ## Authors
 
-- Bikash Hutait
-- Jane Smith
-
-## Acknowledgments
-
-We would like to acknowledge the following resources and libraries that were used in the development of the Speaking Clock project:
-
-- [Spring Boot](https://spring.io/projects/spring-boot)
-- [Swagger](https://swagger.io/)
-
-Feel free to explore and use the Speaking Clock project to convert the current time into words. If you have any feedback or suggestions, please don't hesitate to reach out and let me know.
-
-Enjoy using the Speaking Clock!
+- Ananya R
+  
+## Enjoy using the Speaking Clock!
